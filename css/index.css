@@ -71,6 +71,10 @@ p {
     margin: 0 auto;
 }
 
+.main-content {
+    padding: 15px;
+}
+
 .top-line-nav {
     display: flex;
     justify-content: flext-start;
@@ -194,7 +198,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -203,4 +207,36 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.info-box-row {
+    display: flex;
+    border-top: 1px dotted black;
+    padding-top: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.learn-more-button {
+    border: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 120px;
+	text-align: center;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.info-box-item {
+    width: 370px;
+}
+
+.bottom-row {
+    border-top: 1px dotted black;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.section-title {
+    margin-top: 5px;
 }
